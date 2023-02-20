@@ -5,6 +5,7 @@ This app focuses on developing frontend for the application shown in https://www
 1. React is used as the Frontend framework for this application.
 2. The app uses Firebase for real-time database.
 3. It uses axios library which is used to make requests to an API, return data from the API.
+4. It uses SCSS for the CSS
 
 # File Structure
 
@@ -19,9 +20,7 @@ The structure of the application is as follows:
 
 1.  Clone this repository onto your local machine.
 2.  Install the necessary dependencies such as axios,
-3.  Set up a Firebase project and create a Firebase Realtime Database.
-4.  Update the Firebase configuration in the `src/firebase.js` file with your own Firebase project details.
-5.  Start the development server by running `npm start` in your terminal.
+3.  Start the development server by running `npm start` in your terminal.
 
 ## Application
 
@@ -38,6 +37,25 @@ CSS files for each component are created inside the specific component folder.
 
 1. Clicking on the add button does create an entry but I did not want to keep sending request to the DB so created a submit button for single entry. Add Button creates an entry in the frontend but submit creates an entry in the DB
 2. New Material details are not taken into account until their entry is created in the DB. I was not completely sure about the user requirement in this case.
+3. The best option would have been to store all the states using Redux.(Was too far into the project to make these changes due to time constraint)
+
+### Project Timeline
+
+I spend roughly 3.5 hours on the project.
+
+20-30 mins - Planning the components and deciding on the DB(DB was taken based on convienence as I had some experience working on Firebase)
+
+30-40 mins - Working on the Single Material Container
+
+15-20 mins - Working on the Material List Container
+
+50 mins - Working on Materials Container(Connection with Firebase included)
+
+30-35 mins - Working on CSS of all the components and containers
+
+30 mins - Working on Add and Delete Button Functionality
+
+30-45 mins - Fixing bugs and starting with unit tests.
 
 ### Further Additions and Improvements
 
