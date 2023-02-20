@@ -1,0 +1,46 @@
+.materialList-main {
+  width: 30%;
+  height: 600px;
+  background-color: #17171b;
+  margin: 0px;
+  padding: 0px;
+  padding: 20px;
+  margin: 5px;
+}
+
+.color-div {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+}
+
+.materialList-entries {
+  width: 100%;
+}
+
+.yes-materials {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  height: fit-content;
+  text-align: left;
+  // display: flex;
+  background-color: #363640;
+
+  p {
+    padding: 10px;
+    margin: 5px;
+  }
+}
+
+.active {
+  background-color: aqua !important;
+}
+.no-materials {
+  font-size: 20px;
+  font-weight: bold;
+  height: inherit;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
